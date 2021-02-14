@@ -15,4 +15,10 @@
     </Resource>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ItemCodes.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

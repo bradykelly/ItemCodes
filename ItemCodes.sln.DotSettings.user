@@ -1,7 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8c80eae0_002Dd767_002D4386_002Da684_002D2790983a2b60/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestStartsWithInvalid #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.ValidationTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.SectionValidationTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.FirstSectionTests.TestInvalidPrefix&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.FirstSectionTests.TestInvalidNumber1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.FirstSectionTests.TestInvalidNumber2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.FirstSectionTests.TestValidPattern&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.FirstSectionTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6457563_002Ddeed_002D43a6_002D8e02_002D888d5ec26133/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestStartsWithInvalid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

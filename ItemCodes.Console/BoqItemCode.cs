@@ -6,22 +6,26 @@ namespace ItemCodes.Console
 {
     public class BoqItemCode
     {
-        public string StringValue { get; set; }
+        public string StringValue { get; private set; }
 
-        private List<BoqItemCodeSection> _parts { get; set; } = new List<BoqItemCodeSection>();
+        private List<BoqItemCodeSection> _sections { get; set; } = new List<BoqItemCodeSection>();
 
         public static BoqItemCode Parse(string value)
         {
             var itemCode = new BoqItemCode();
-            var first = value.Substring(0, 6);
-            itemCode._parts.Add(new BoqItemCodeFirstSection{Content = first});
+            var first = value.Substring(0, 7);
+            itemCode._sections.Add(new BoqItemCodeFirstSection{Content = first});
+            
+            var parts = value.Substring(7, value.Length - 7).Split('(');
+            var second = "(" + parts[1].Replace("(", "").Replace(")", "") + ")";
+            itemCode._sections.Add(new BoqItemCodeSecondSection {Content = second});
 
-            var parts = value.Substring(6, value.Length - 6).Split('(');
-            foreach (var part in parts)
+            foreach (var part in parts[2..])
             {
-                var content = "(" + part.Replace("(", "").Replace(")", "") + ")";
-                itemCode._parts.Add(new BoqItemCodeSection {Content = content});
+                var next = "(" + part.Replace("(", "").Replace(")", "") + ")";
+                itemCode._sections.Add(new BoqItemCodeSection {Content = next});
             }
+            itemCode.StringValue = value;
 
             return itemCode;
         }

@@ -7,6 +7,11 @@
     &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.FirstSectionTests.TestInvalidNumber2&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.FirstSectionTests.TestValidPattern&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.FirstSectionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.SecondSectionTests.TestValidPattern&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.SecondSectionTests.TestInvalidPattern1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.SecondSectionTests.TestInvalidPattern2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.SecondSectionTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::A674250C-8A58-4E3C-976B-82E6D2DD01F5::.NETCoreApp,Version=v3.1::ItemCodes.Tests.ItemCodeParseTests.TestValidItemCode1&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f6457563_002Ddeed_002D43a6_002D8e02_002D888d5ec26133/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestStartsWithInvalid" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

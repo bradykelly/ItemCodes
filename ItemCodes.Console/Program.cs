@@ -7,7 +7,7 @@ namespace ItemCodes.Console
 {
     class Program
     {
-        private const string ConnectionString = "DATA SOURCE=oracledev.nra.co.za:1527/itisdev;PERSIST SECURITY INFO=True;USER ID=ITIS_web;PASSWORD=iweb123;Connection Timeout=60;";
+        private const string ConnectionString = "DATA SOURCE=dsffdsfsdfsdf:1527/itisdev;PERSIST SECURITY INFO=True;USER ID=433555trt;PASSWORD=djfhjbntj;Connection Timeout=60;";
 
         static void Main(string[] args)
         {

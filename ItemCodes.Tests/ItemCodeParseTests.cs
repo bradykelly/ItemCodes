@@ -12,7 +12,7 @@ namespace ItemCodes.Tests
         [TestMethod]
         public void TestValidItemCode1()
         {
-            var val = "M250.01(a)(ii)(iii)";
+            var val = "M610.04";
 
             var code = BoqItemCode.Parse(val);
 

@@ -13,10 +13,25 @@ namespace ItemCodes.Console
         public static BoqItemCode Parse(string value)
         {
             var itemCode = new BoqItemCode();
-            var first = value.Substring(0, 7);
+            itemCode.StringValue = value;
+            string first;
+            if (value.Length == 4)
+            {
+                first = value.Substring(0, 4);
+                itemCode._sections.Add(new BoqItemCodeFirstSection { Content = first });
+                return itemCode;
+            }
+
+            first = value.Substring(0, 7);
             itemCode._sections.Add(new BoqItemCodeFirstSection{Content = first});
-            
-            var parts = value.Substring(7, value.Length - 7).Split('(');
+
+            var remaining = value.Substring(7, value.Length - 7).Trim();
+            if (remaining.Length == 0)
+            {
+                return itemCode;
+            }
+
+            var parts = remaining.Split('(');
             var second = "(" + parts[1].Replace("(", "").Replace(")", "") + ")";
             itemCode._sections.Add(new BoqItemCodeSecondSection {Content = second});
 
@@ -25,8 +40,7 @@ namespace ItemCodes.Console
                 var next = "(" + part.Replace("(", "").Replace(")", "") + ")";
                 itemCode._sections.Add(new BoqItemCodeSection {Content = next});
             }
-            itemCode.StringValue = value;
-
+            
             return itemCode;
         }
 

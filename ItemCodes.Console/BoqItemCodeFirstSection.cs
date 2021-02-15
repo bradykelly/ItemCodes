@@ -14,7 +14,7 @@
 
         protected override bool IsValid(string value)
         {
-            if (value.Length != 7)
+            if (value.Length != 7 && value.Length != 4)
             {
                 return false;
             }
